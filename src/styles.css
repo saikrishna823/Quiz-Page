@@ -1,0 +1,171 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.sign-in{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:200px;
+   
+}
+.sign-in h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size:50px;
+   margin:10px;
+   color:rgb(76, 70, 180);
+   text-transform: capitalize;
+ 
+}
+.sign-in input{
+    width:300px;
+    height:40px;
+    padding:5px;
+    margin:5px;
+    border-color: rgb(227, 17, 227);
+    border-radius:5px;
+}
+.sign-in input:active{
+    border-color: crimson;
+}
+
+.sign-in button{
+    width:300px;
+    height:40px;
+    padding:5px ;
+    margin:5px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: cornflowerblue;
+    color:red;
+    font-size:20px;
+    border-radius:5px;
+}
+.sign-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:4px solid rgba(47, 255, 0, 0.601);
+    padding:10px;
+    border-radius:5px;
+    /* cursor: pointer; */
+}
+.header{
+    height:100px;
+    display:block;
+    background-color: rgb(137, 237, 235);
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    position: relative;
+}
+.navigation-items{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation-items li{
+    margin-right:10px;
+    list-style:none;
+}
+.navigation-items li a{
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color:white;
+}
+ .navigation-items li a:hover{
+    color:rgb(0, 17, 255);
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+#current-user{
+    margin-left:0px;
+    position:absolute;
+    left:0px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(64, 3, 248);
+
+}
+.set-quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:400px;
+  
+}
+.questions,.difficulty,.category{
+    margin:5px;
+}
+.questions div,.difficulty div,.category div{
+    margin:3px;
+    text-align: center;
+    color:white;
+    font-size:x-large;
+    color:rgb(7, 78, 81);
+}
+.questions input,select{
+    width:400px;
+    height:35px;
+    border-color: deeppink;
+    border-radius:5px;
+}
+.submit-button{
+    margin:10px;
+    width:400px;
+    height:40px;
+    background-color:rgb(93, 0, 139);
+    color:white;
+    border-radius:5px;
+    font-size:large;
+    padding:5px;
+
+}
+option{
+    font-size: larger;
+}
+.quiz-header{
+    background-color: rgb(137, 237, 235);
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    flex-direction: column;
+}
+.question-container{
+    background-color: #7a7aec;
+    margin:5px;
+    padding:5px;
+    border-radius: 5px;
+    width:700px;
+}
+.option-items {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons-container  button{
+  background-color: rgb(204, 50, 165);
+   padding:5px 15px 5px 15px;
+   margin:5px 30px 5px 30px;
+   color: white;
+   font-size: larger;
+   border-radius:5px;
+   border-color:chocolate;
+   text-align: center;
+}
+
+input[type="radio"]{
+    transform:scale(1.8);
+    padding:10px;
+    margin:10px;
+    
+}
